@@ -44,7 +44,7 @@ public class KleinsterKreis {
             long lose[] = new long[anzahlP];
             boolean finished = false;
 
-            int fensterGröße = 500;
+            int fensterGröße = 700;
             double startTime = System.currentTimeMillis();
             Arrays.fill(lose, 1);
             Arrays.fill(kreisP, new Tuple(0, 0));
